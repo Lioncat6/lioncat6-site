@@ -38,7 +38,7 @@
 </head>
 <body>
   <object type="text/html" data="https://lioncat6.netlify.app/header.html" style="width: 100%;"></object>
-  <?php include "https://lioncat6.netlify.app/header.html" ?>
+  <iframe src="https://lioncat6.netlify.app/header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 </body>
 
 
