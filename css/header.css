@@ -1,0 +1,21 @@
+.header {
+    height: 5%;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 14px 16px;
+  }
+  .navbar a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .logo {
+    height: 1em;
+    margin: 5px;
+  }
