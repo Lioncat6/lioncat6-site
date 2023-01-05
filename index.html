@@ -38,11 +38,16 @@
   <meta name="twitter:title" content="Lioncat6 - Official Website"></meta>
   <meta name="twitter:description" content="Official page for Lioncat6's texture packs, mods, and more!"></meta>
   <meta name="twitter:image" content="https://lioncat6.netlify.app/images/Slide1.png"></meta>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+   $(function(){
+      $('.header').load("/header.html"); 
+   });
+</script> 
 </head>
-<header>
-  <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.header||this.contentDocument).innerHTML);this.remove()" width="100%" height="20%" hidden="true"></iframe>
-
-</header>
+<div class="header">
+  <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" width="100%" height="20%" hidden="true"></iframe>
+</div>
 <body>
 
 Site Under Construction...
