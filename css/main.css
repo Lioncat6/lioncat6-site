@@ -9,7 +9,7 @@ body {
   color: black;
 font-weight: bold;
 }
-* {
+.content {
   box-sizing: border-box;
 }
 
@@ -37,7 +37,6 @@ code {
   align-items: center;
 }
 
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
