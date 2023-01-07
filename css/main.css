@@ -82,7 +82,6 @@ code {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  max-height: 60vh;
 }
 
 /* Next & previous buttons */
