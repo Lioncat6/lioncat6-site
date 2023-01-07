@@ -4,7 +4,6 @@ function startSlides(){
   setInterval(() => {plusSlides(1)}, 5000);
   showSlides(slideIndex);
 }
-showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
