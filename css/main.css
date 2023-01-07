@@ -147,6 +147,7 @@ code {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  z-index: 1300;
 }
 
 /* The dots/bullets/indicators */
