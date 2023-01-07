@@ -101,7 +101,9 @@ code {
 }
 
 .slideIframe {
+    position: absolute;
     top: 50%;
+    left: 10%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
