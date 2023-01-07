@@ -100,6 +100,14 @@ code {
   user-select: none;
 }
 
+.slideIframe {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
