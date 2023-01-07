@@ -77,14 +77,18 @@ code {
   max-width: 100%;
   position: relative;
   margin: auto;
-  border-radius: 10px;
+  
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-
+.slideImage{
+    max-height: 60vh; 
+    max-width: 100%;
+    border-radius: 10px;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
