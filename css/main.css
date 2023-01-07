@@ -138,8 +138,7 @@ code {
   text-align: center;
   font-weight: 500;
   z-index: 1200;
-  height:0px;
-  overflow:visible;
+
   pointer-events:none;
   background:none !important;
 }
