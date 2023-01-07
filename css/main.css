@@ -114,6 +114,7 @@ code {
     height: 100%;
     margin-top: 0px;
     z-index: 1000;
+    border-radius: 10px;
 }
 
 /* Position the "next button" to the right */
