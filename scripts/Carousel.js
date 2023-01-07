@@ -9,25 +9,9 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-function plusSlide() {
-  showSlides(slideIndex += 1);
-}
-
-function minusSlide() {
-  showSlides(slideIndex += -1);
-}
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
-function currentSlideOne() {
-  showSlides(slideIndex = 1);
-}
-function currentSlideTwo() {
-  showSlides(slideIndex = 2);
-}
-function currentSlideThree() {
-  showSlides(slideIndex = 3);
 }
 
 
