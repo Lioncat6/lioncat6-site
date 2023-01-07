@@ -101,11 +101,11 @@ code {
 }
 
 .slideIframe {
-    position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
+    z-index: 1000;
 }
 
 /* Position the "next button" to the right */
