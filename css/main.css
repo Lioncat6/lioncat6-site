@@ -103,8 +103,8 @@ code {
 .slideIframe {
     position: absolute;
     top: 5%;
-    left: 35%;
-    width: auto;
+    left: 33%;
+    width: 33%;
     margin-top: -22px;
     padding: 16px;
     z-index: 1000;
