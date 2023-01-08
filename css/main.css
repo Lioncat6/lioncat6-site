@@ -198,6 +198,21 @@ code {
   border-radius: 10px;
 }
 
+
+.windowTitle {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  z-index: 1200;
+
+  pointer-events:none;
+  background:none !important;
+}
 .windowText {
   color: #f2f2f2;
   font-size: 15px;
@@ -214,25 +229,12 @@ code {
   background:none !important;
 }
 
-.windowTitle {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 8px;
-  width: 100%;
-  text-align: center;
-  font-weight: 500;
-  z-index: 1200;
-
-  pointer-events:none;
-  background:none !important;
-}
-
 .windowDownloads {
+  right: 8px;
   text-align: right;
 }
 
 .windowViews {
+  left:8px;
   text-align: left;
 }
