@@ -269,9 +269,15 @@ code {
   overflow-wrap: normal;
   font-weight: 500;
   z-index: 1200;
-  visibility: hidden;
+  opacity:0.0;
 }
 
 .packWindow:hover .windowDescription {
-  visibility: visible;
+  opacity:1.0;
+    filter:alpha(opacity=100);/*position where      
+    enlarged image should offset horizontally */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
