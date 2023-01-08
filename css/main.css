@@ -271,3 +271,7 @@ code {
   z-index: 1200;
   visibility: hidden;
 }
+
+.packWindow:hover .windowDescription {
+  visibility: visible;
+}
