@@ -1,7 +1,7 @@
 let slideIndex = 1;
 
 function startSlides(){
-  var slideshowInterval = setInterval(() => {plusSlides(1)}, 10000);
+  setInterval(() => {plusSlides(1)}, 10000);
   showSlides(slideIndex);
 }
 
