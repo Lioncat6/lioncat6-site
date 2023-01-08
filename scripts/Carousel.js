@@ -9,6 +9,15 @@ function clearSlideInt(){
   clearInterval(ssinterval);
   ssinterval = setInterval(() => {plusSlides(1)}, 10000);
 }
+
+function stopSlideChange(){
+  clearInterval(ssinterval);
+}
+
+function resumeSlideChange(){
+  ssinterval = setInterval(() => {plusSlides(1)}, 10000);
+}
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
