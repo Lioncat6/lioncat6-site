@@ -12,10 +12,12 @@ function clearSlideInt(){
 
 function stopSlideChange(){
   clearInterval(ssinterval);
+  console.log("Slide Change Stopped")
 }
 
 function resumeSlideChange(){
   ssinterval = setInterval(() => {plusSlides(1)}, 10000);
+  console.log("Slide Change Resumed")
 }
 
 function plusSlides(n) {
