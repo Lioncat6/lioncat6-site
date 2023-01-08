@@ -270,4 +270,9 @@ code {
   font-weight: 500;
   z-index: 1200;
   pointer-events:none;
+  visibility: hidden;
+}
+
+.windowDescription:hover {
+  visibility: visible;
 }
