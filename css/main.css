@@ -205,16 +205,18 @@ code {
 .windowTitle {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 8px;
   position: absolute;
-  top: 8px;
-  width: 100%;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
   text-align: center;
   font-weight: 500;
   z-index: 1200;
-
   pointer-events:none;
-  background:none !important;
 }
 .windowText {
   color: #f2f2f2;
@@ -234,12 +236,10 @@ code {
 
 .windowDownloads {
   right: 8px;
-  align-items: flex-end;
   text-align: right;
 }
 
 .windowViews {
   left:8px;
-  align-items: flex-start;
   text-align: left;
 }
