@@ -6,7 +6,8 @@ function startSlides(){
 }
 
 function clearSlideInt(){
-  clearInterval(ssinterval)
+  clearInterval(ssinterval);
+  ssinterval = setInterval(() => {plusSlides(1)}, 10000);
 }
 function plusSlides(n) {
   showSlides(slideIndex += n);
