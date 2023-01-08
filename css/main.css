@@ -231,10 +231,12 @@ code {
 
 .windowDownloads {
   right: 8px;
+  align-items: flex-end;
   text-align: right;
 }
 
 .windowViews {
   left:8px;
+  align-items: flex-start;
   text-align: left;
 }
