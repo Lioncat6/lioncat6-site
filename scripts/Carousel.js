@@ -6,12 +6,17 @@ function startSlides(){
 }
 
 function clearSlideInt(){
-  clearInterval(ssinterval);
-  ssinterval = setInterval(() => {plusSlides(1)}, 10000);
+  stopSlideChange();
+  resumeSlideChange();
 }
 
 function stopSlideChange(){
   clearInterval(ssinterval);
+  const highestId = window.setTimeout(() => { //this makes seure that all timeouts are actually cleared
+    for (let i = highestId; i >= 0; i--) {
+      window.clearInterval(i);
+    }
+  }, 0); 
   console.log("Slide Change Stopped")
 }
 
