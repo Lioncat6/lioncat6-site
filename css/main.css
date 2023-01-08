@@ -271,8 +271,3 @@ code {
   z-index: 1200;
   visibility: hidden;
 }
-
-.windowDescription:hover {
-  visibility: visible;
-  pointer-events:none;
-}
