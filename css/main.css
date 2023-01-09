@@ -16,6 +16,13 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+  @media only screen and (max-width: 800px) {
+    .navbar {
+      display: none;
+    }
+  }
+
   .logo {
     height: 1em;
     margin: 5px;
