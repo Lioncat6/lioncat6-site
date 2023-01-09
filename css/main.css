@@ -132,8 +132,8 @@ code {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px;
+  font-size: 2vmin;
+  padding: 1vmin;
   position: absolute;
   bottom: 8px;
   left: 50%;
