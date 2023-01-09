@@ -1,8 +1,8 @@
-let slideIndex = 1;
-
+let slideIndex = 1
 function startSlides(){
   ssinterval = setInterval(() => {plusSlides(1)}, 10000);
   showSlides(slideIndex);
+  current
 }
 
 function clearSlideInt(){
