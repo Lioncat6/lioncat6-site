@@ -105,6 +105,7 @@ code {
   border-radius: 0 3px 3px 0;
   user-select: none;
   z-index: 1100;
+  text-shadow: 0 0 5px #000;
 }
 
 .slideIframe {
