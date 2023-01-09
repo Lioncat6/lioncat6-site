@@ -204,8 +204,8 @@ code {
 
 .windowTitle {
   color: #f2f2f2;
-  font-size: 30px;
-  padding: 8px;
+  font-size: 3vmin;
+  padding: 1vmin;
   position: absolute;
   top: 8px;
   left: 50%;
@@ -222,8 +222,8 @@ code {
 
 .windowDownloads {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px;
+  font-size: 2vmin;
+  padding: 1vmin;
   position: absolute;
   bottom: 8px;
   right: 10%;
@@ -238,8 +238,8 @@ code {
 
 .windowViews {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px;
+  font-size: 2vmin;
+  padding: 1vmin;
   position: absolute;
   bottom: 8px;
   left: 10%;
@@ -254,8 +254,8 @@ code {
 
 .windowDescription {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px;
+  font-size: 2vmin;
+  padding: 1vmin;
   position: absolute;
   top: 50%;
   left: 50%;
