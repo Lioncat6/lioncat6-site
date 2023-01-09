@@ -257,7 +257,7 @@ code {
   font-size: 2vmin;
   padding: 1vmin;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(0, 0, 0);
