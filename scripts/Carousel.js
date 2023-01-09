@@ -1,8 +1,8 @@
 let slideIndex = 1;
-
+let slidesLength = document.getElementsByClassName("mySlides").length
 function startSlides(){
   ssinterval = setInterval(() => {plusSlides(1)}, 10000);
-  showSlides(Math.floor(Math.random() * document.getElementsByClassName("mySlides").length) + 1);
+  showSlides(Math.floor(Math.random() * slidesLength) + 1);
 }
 
 function clearSlideInt(){
