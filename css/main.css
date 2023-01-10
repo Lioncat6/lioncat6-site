@@ -350,9 +350,10 @@ code {
   top: 80px;
   background-color: #f5f5f5;
   display: none;
-  animation: fadeIn 1s;
+  animation: fadeIn 0.5s;
   z-index: 5000;
-  
+  transform: translateX(-10%);
+
   
 }
 
