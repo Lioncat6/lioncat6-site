@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
+
   <body>
     <div class="topbar">
       <div class="headertop" style="text-decoration: none">
         <a href="/" style="text-decoration: none; color: black;">
           <h1 style="text-decoration: none; color: black;">
             LC6
-            <img
-              src="https://lioncat6.netlify.app/images/favicon.ico"
-              alt="Logo"
-              class="logo"
-            />
+            <img src="https://lioncat6.netlify.app/images/favicon.ico" alt="Logo" class="logo" />
           </h1>
         </a>
         <div class="navbar">
@@ -21,17 +18,29 @@
           <a href="/java"><b> Java Content </b></a>
           <a href="/links"><b> Links </b></a>
         </div>
-            <script>
-      function menutoggle(x) {
-        x.classList.toggle("change");
-      }
-    </script>
-         <div class="menuBtnCnt" onclick="this.classList.toggle('change')">
+        <div id="menuBtn" class="menuBtnCnt" onclick="this.classList.toggle('change'); if (this.classList.contains('change')) {
+        document.getElementById('dmenu').style.display = 'block'
+        } else {
+        document.getElementById('dmenu').style.display = 'none'
+        }
+">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
       </div>
     </div>
+    <div class="dropMenu" id="dmenu">
+      <ul class="DmenuList">
+        <li class=DmenuItem> <a href="/"><b> Home </b></a></li>
+        <li class=DmenuItem> <a href="/texture-packs"><b> Texture Packs </b></a></li>
+        <li class=DmenuItem> <a href="/maps"><b> Maps </b></a></li>
+        <li class=DmenuItem> <a href="/behavior-packs"><b> Behavior Packs </b></a></li>
+        <li class=DmenuItem> <a href="/java"><b> Java Content </b></a></li>
+        <li class=DmenuItem> <a href="/links"><b> Links </b></a></li>
+      </ul>
+    </div>
+    
   </body>
+
 </html>
