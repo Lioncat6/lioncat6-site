@@ -352,7 +352,6 @@ code {
   display: none;
   animation: fadeIn 0.5s;
   z-index: 5000;
-  transform: translateX(-10%);
 
   
 }
