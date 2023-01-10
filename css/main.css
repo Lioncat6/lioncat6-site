@@ -29,6 +29,10 @@
   .menuBtnCnt {
     visibility: hidden;
   }
+  .dropMenu {
+   disply: none;
+  visibility: hidden;
+  }
 }
 
 .logo {
