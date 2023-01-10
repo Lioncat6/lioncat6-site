@@ -369,4 +369,6 @@ code {
   color: black;
   text-decoration: none;
   padding: 5px;
+  transform: translateX(-5%);
+
 }
