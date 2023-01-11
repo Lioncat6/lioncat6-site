@@ -102,12 +102,17 @@ body {
   box-sizing: border-box;
 }
 
-.content::before {
+.content:after {
   background-size: cover;
   background-attachment: fixed;
   background-image: url("/images/background.png");
   background-blend-mode: soft-light;
   opacity: 0.2;
+  position:absolute;
+}
+
+.content * {
+  z-index:1;
 }
 
 .content {
