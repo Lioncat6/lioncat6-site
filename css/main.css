@@ -376,3 +376,7 @@ code {
     transform: translateX(-5%); 
 }
   
+
+p {
+  text-align: center;
+}
