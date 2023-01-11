@@ -30,7 +30,7 @@
     visibility: hidden;
   }
   .dropMenu {
-   disply: none;
+   display: none;
   visibility: hidden;
   }
 }
@@ -265,10 +265,8 @@ code {
 .windowImg {
   max-height: 60vh;
   max-width: 100%;
-  min-height: 60vh;
-  min-width: 100%;
   border-radius: 10px;
-  object-fit: fill;
+  object-fit: inherit;
 }
 
 
@@ -383,3 +381,36 @@ code {
     transform: translateX(-5%); 
 }
   
+
+p {
+  text-align: center;
+}
+
+red {
+  color:red;
+}
+
+orange {
+  color:orange
+}
+
+
+yellow {
+  color:yellow
+}
+
+green {
+  color:green
+}
+
+blue {
+  color:blue
+}
+
+purple {
+  color:purple
+}
+
+pink {
+  color:pink
+}
