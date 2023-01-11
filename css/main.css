@@ -93,6 +93,13 @@ body {
   width: 100%;
 }
 
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("/images/background.png");
+  background-blend-mode: soft-light;
+  opacity: 0.2;
+}
 .downlink {
   color: black;
   font-weight: bold;
@@ -100,6 +107,9 @@ body {
 
 .content {
   box-sizing: border-box;
+}
+
+.content::after {
   background-size: cover;
   background-attachment: fixed;
   background-image: url("/images/background.png");
