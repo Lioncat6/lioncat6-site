@@ -99,21 +99,15 @@ body {
 }
 
 .content {
-  box-sizing: border-box;
-}
-
-.content:after {
+  box-sizing: border-box;  
   background-size: cover;
   background-attachment: fixed;
   background-image: url("/images/background.png");
   background-blend-mode: soft-light;
-  opacity: 0.2;
+  background-color: rgba(255,255,255,0.3);
   position:absolute;
 }
 
-.content * {
-  z-index:1;
-}
 
 .content {
   padding: 2rem 0 1rem 0;
