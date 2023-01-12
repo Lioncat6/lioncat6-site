@@ -295,7 +295,7 @@ code {
 
 .windowImg {
   border-radius: 10px;
-  object-fit: inherit;
+  object-fit: fill;
 }
 
 
