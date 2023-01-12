@@ -299,15 +299,16 @@ code {
   border-radius: 10px;
   object-fit: fill;
   width: 100vw;
+  aspect-ratio: 16 / 9;
 }
 
 
 .windowTitle {
   color: #f2f2f2;
   font-size: 3vmin;
-  padding: 2vmax;
+  padding: 1vmax;
   position: absolute;
-  top: 8px;
+  top: 1vmax;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(0, 0, 0);
@@ -339,9 +340,9 @@ code {
 .windowViews {
   color: #f2f2f2;
   font-size: 2vmin;
-  padding: 2vmax;
+  padding: 1vmax;
   position: absolute;
-  bottom: 8px;
+  bottom: 2vmax;
   left: 10%;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.7);
