@@ -298,7 +298,7 @@ code {
   max-width: 100%;
   border-radius: 10px;
   object-fit: fill;
-  width: 100vw;
+  width: 100vmin;
   aspect-ratio: 16 / 9;
 }
 
