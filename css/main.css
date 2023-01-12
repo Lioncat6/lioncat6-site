@@ -286,8 +286,6 @@ code {
 
 
 .packWindow {
-  height: 1440px;
-  width: 2560px;
   max-height: 60vh;
   max-width: 100%;
   position: relative;
@@ -295,8 +293,6 @@ code {
 }
 
 .windowImg {
-  max-height: 60vh;
-  max-width: 100%;
   border-radius: 10px;
   object-fit: inherit;
 }
