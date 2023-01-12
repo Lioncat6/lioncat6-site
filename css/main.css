@@ -447,3 +447,11 @@ purple {
 pink {
   color:pink
 }
+
+.linkContainer {
+ min-height: 5%;
+ min-width: 60%;
+ padding: 2vmin;
+ border-radius: 10px;
+ background-color: white;
+}
