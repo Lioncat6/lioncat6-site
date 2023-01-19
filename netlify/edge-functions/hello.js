@@ -1,5 +1,7 @@
 export default async(request, context) => {
-    return new Response("This was generated with edge with JS!",
+    var date = new Date();
+    var current_hour = date.getHours();
+    return new Response("This was generated with edge with JS! The current hour is:"+current_hour,
     {
         headers: {
             "context-type": "text/html"
