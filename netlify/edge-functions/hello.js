@@ -1,6 +1,6 @@
 export default async(request, context) => {
     var date = new Date();
-    var current_hour = date.getHours();
+    var current_hour = date.getSeconds();
     return new Response("This was generated with edge with JS! The current hour is:"+current_hour,
     {
         headers: {
