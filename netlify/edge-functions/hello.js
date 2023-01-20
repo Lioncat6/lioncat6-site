@@ -3,6 +3,7 @@ export default async(request, context) => {
 
         var xmlhttprequest = new XMLHttpRequest();
         xmlhttprequest.open('GET', url, true);
+        xmlhttprequest.setRequestHeader("user-agent","lioncat6");
         xmlhttprequest.responseType = 'json';
     
         xmlhttprequest.onload = function() {
