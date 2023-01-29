@@ -455,6 +455,10 @@ pink {
   border-radius: 1vmin;
 }
 
+.linkslink {
+  padding: 5px;
+} 
+
 .comingsoonImage {
   max-height: 60vh;
   max-width: 80vh;
