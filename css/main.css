@@ -450,16 +450,17 @@ pink {
 }
 
 .linkImg {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 10vmax;
   border-radius: 1vmin;
 }
 
 .comingsoonImage {
   max-height: 60vh;
-  
+  max-width: 80vh;
 }
 
 .pagenotfoundimage {
   max-height: 60vh;
+  max-width: 80vh;
 }
