@@ -374,6 +374,10 @@ code {
   opacity: 0.0;
 }
 
+.windowDescription a {
+  color:white
+}
+
 .packWindow:hover .windowDescription, .packWindow:hover .windowDownloads, .packWindow:hover .windowViews {
   opacity: 1.0;
   filter: alpha(opacity=100);
