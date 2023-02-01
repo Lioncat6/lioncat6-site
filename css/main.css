@@ -336,12 +336,13 @@ code {
   font-weight: 500;
   z-index: 1200;
   pointer-events: none;
+  opacity: 0.0;
 }
 
 .windowViews {
   color: #f2f2f2;
   font-size: 2vmin;
-  padding: 1vmax;
+  padding: 1vmin;
   position: absolute;
   bottom: 2vmax;
   left: 10%;
@@ -352,6 +353,7 @@ code {
   font-weight: 500;
   z-index: 1200;
   pointer-events: none;
+  opacity: 0.0;
 }
 
 .windowDescription {
@@ -372,7 +374,7 @@ code {
   opacity: 0.0;
 }
 
-.packWindow:hover .windowDescription {
+.packWindow:hover .windowDescription, .windowDownloads, .windowViews {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /*position where      
