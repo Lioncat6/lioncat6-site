@@ -374,7 +374,7 @@ code {
   opacity: 0.0;
 }
 
-.packWindow:hover .windowDescription, .windowDownloads, .windowViews {
+.packWindow:hover .windowDescription, .packWindow:hover .windowDownloads, .packWindow:hover .windowViews {
   opacity: 1.0;
   filter: alpha(opacity=100);
   /*position where      
