@@ -6,7 +6,7 @@ export default async (request, context) => {
     }
   });
   
-  return new Response(pmcStats, 
+  return new Response(pmcStats.text(), 
     {
         headers: {
             "context-type": "text/html"
