@@ -7,5 +7,5 @@ export default async (request, context) => {
   });
   
   const jsonData = await pmcStats();
-  return Response.(jsonData);
+  return Response;
 };
