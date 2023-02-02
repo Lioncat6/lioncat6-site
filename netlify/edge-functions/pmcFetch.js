@@ -6,6 +6,6 @@ export default async (request, context) => {
     }
   });
   
-  const jsonData = await pmcStats.json();
-  return Response.json(jsonData);
+  const jsonData = await pmcStats();
+  return Response.(jsonData);
 };
