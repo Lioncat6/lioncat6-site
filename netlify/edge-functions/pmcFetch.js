@@ -2,7 +2,7 @@ export default async (request, context) => {
 
   const pmcStats = await fetch("https://planetminecraft.com/exture-pack/behavior-pack-glow-blocks-for-radiant-pack-rtx/stats");
   
-  return new Response(pmcStats.text(), 
+  return new Response(pmcStats.json(), 
     {
         headers: {
             "context-type": "text/html"
