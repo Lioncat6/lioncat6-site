@@ -1,18 +1,11 @@
 export default async (request, context) => {
-  function axiosTest() {
-    fetch("https://planetminecraft.com/exture-pack/behavior-pack-glow-blocks-for-radiant-pack-rtx/stats")
-        .then(response => response.data)
-        .catch(error => error);
+
+  async function getStats(){
+    const pmcStats = await fetch("https://planetminecraft.com/exture-pack/behavior-pack-glow-blocks-for-radiant-pack-rtx/stats");
+    return pmcStats
   }
 
-  async function getResponse () {
-          axiosTest().then(response => {
-                  return response;
-          });
-  }
-
-
-  return new Response(getResponse())
+  return new Response(getStats().text())
 //  const jsonData = await pmcStats.json();
 //  return Response.json(jsonData);
 };
