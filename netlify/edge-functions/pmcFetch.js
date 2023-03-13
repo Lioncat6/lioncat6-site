@@ -1,11 +1,12 @@
 export default async (request, context) => {
 
-  async function getStats(){
-    const pmcStats = await fetch("https://planetminecraft.com/exture-pack/behavior-pack-glow-blocks-for-radiant-pack-rtx/stats");
-    return pmcStats
-  }
+  const pmcStats = await fetch("https://planetminecraft.com/exture-pack/behavior-pack-glow-blocks-for-radiant-pack-rtx/stats");
 
-  return new Response(getStats().text())
+ 
+  (async () => {
+  return new Response(pmcStats.text())
+  })();
+
 //  const jsonData = await pmcStats.json();
 //  return Response.json(jsonData);
 };
