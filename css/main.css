@@ -490,5 +490,9 @@ hr {
 
 .about {
   background-color: whitesmoke;
-  opacity: 50%;
+  opacity: 80%;
+}
+
+.about p, .about h1 {
+  opacity: 100%;
 }
