@@ -475,3 +475,9 @@ pink {
   max-height: 60vh;
   max-width: 80vw;
 }
+
+hr {
+  color:#555;
+  width: 60vh;
+  height: 5px;
+}
