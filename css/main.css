@@ -477,7 +477,7 @@ pink {
 }
 
 hr {
-  background-color: #333;
+  color:#000000;
   width: 80vw;
   height: 1vh;
 }
@@ -485,6 +485,7 @@ hr {
 .transparent {
   background-color: transparent;
   color: transparent;
+  border:transparent;
 }
 
 .about {
