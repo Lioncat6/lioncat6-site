@@ -479,7 +479,7 @@ pink {
 hr {
   padding-top: 5vh;
   color:#555;
-  background-color:#555;
+  background-color: transparent;
   border: #555;
   width: 80vw;
   height: 1vh;
