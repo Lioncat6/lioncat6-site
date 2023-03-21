@@ -493,6 +493,7 @@ hr {
   opacity: 65%;
   width: 80vw;
   justify-content: center;
+  align-items: center;
 }
 
 .about p, .about h1 {
