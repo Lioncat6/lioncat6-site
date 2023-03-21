@@ -492,6 +492,7 @@ hr {
   background-color: whitesmoke;
   opacity: 65%;
   width: 80vw;
+  justify-content: center;
 }
 
 .about p, .about h1 {
