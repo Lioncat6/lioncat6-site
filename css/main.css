@@ -479,6 +479,7 @@ pink {
 hr {
   color:#555;
   background-color:#555;
+  border: #555;
   width: 70vw;
   height: 1vh;
 }
