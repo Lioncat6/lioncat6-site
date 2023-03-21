@@ -477,10 +477,17 @@ pink {
 }
 
 hr {
-  padding-top: 5vh;
-  color:#555;
-  background-color: transparent;
-  border: #555;
+  background-color: #333;
   width: 80vw;
   height: 1vh;
+}
+
+.transparent {
+  background-color: transparent;
+  color: transparent;
+}
+
+.about {
+  background-color: whitesmoke;
+  opacity: 50%;
 }
