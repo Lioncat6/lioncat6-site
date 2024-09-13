@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /* width */
 ::-webkit-scrollbar {
   width: .5vmax;
@@ -488,8 +490,8 @@ hr {
 }
 
 .about {
-  background-color: whitesmoke;
-  opacity: 65%;
+  background-color: rgba(245, 245, 245, .7);
+  opacity: 100%;
   width: 80vw;
   justify-content: center;
   align-items: center;
