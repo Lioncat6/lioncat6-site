@@ -1,6 +1,6 @@
 function showAd(url){
     const overlay = document.getElementById('overlay');
-      const box = document.getElementById('box');
+      const box = document.getElementById('adBox');
       
       // Inject HTML content into the box
       box.innerHTML = `
