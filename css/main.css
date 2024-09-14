@@ -521,3 +521,31 @@ hr {
 .downloadBtn:hover {
   background-color: RoyalBlue;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Fade-in effect */
+}
+
+.overlay.show {
+  visibility: visible; /* Show when the class 'show' is added */
+  opacity: 1; /* Fully visible */
+}
+
+.adBox {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
