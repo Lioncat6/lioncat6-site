@@ -514,7 +514,8 @@ hr {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  width:100%;
+  width: 90%;
+  margin: 0 20px 20px 20px;
 }
 
 .downloadBtn:hover {
