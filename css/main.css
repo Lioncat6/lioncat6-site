@@ -165,7 +165,7 @@ code {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 95%;
   position: relative;
   margin: auto;
 
@@ -293,7 +293,7 @@ code {
 
 .packWindow {
   max-height: 60vh;
-  max-width: 100%;
+  max-width: 95%;
   position: relative;
   margin: auto;
   padding: 1vmin 0px 11px 0px
@@ -399,7 +399,7 @@ code {
   align-items: center;
   width: 100%;
   position: absolute;
-  top: 80px;
+  top: 70px;
   background-color: #f5f5f5;
   display: none;
   animation: fadeIn 0.5s;
