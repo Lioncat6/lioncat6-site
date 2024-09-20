@@ -82,11 +82,11 @@
   display: inline-block;
   cursor: pointer;
   position: absolute;
-  right: 10%;
+  right: 5%;
   z-index: 9999;
   background-color: white;
   border-radius: 5px;
-  padding: 10px;
+  padding: 1px 5px;
 }
 
 .bar1,
