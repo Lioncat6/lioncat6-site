@@ -28,7 +28,14 @@ jobs:
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
+    - name: Verify if sitemap was changed
+      id: verify-changes
+      uses: tj-actions/verify-changed-files@v20
+      with:
+        files: ${{ steps.sitemap.outputs.sitemap-path }}
+
     - name: Commit and push sitemap
+      if: steps.verify-changes.outputs.files_changed == 'true'
       run: |
         git config --global user.name "Lioncat6"
         git config --global user.email "your-email@example.com"
