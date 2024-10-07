@@ -461,12 +461,12 @@ pink {
 }
 
 .linkImg {
-  max-width: 90%;
   max-height: 10vmax;
   border-radius: 1vmin;
 }
 
 .linkslink {
+  max-width: 90%;
   padding: 5px;
 } 
 
