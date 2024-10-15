@@ -500,6 +500,11 @@ hr {
   align-items: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.about ul {
+  text-align: initial !important;
 }
 
 .about p, .about h1 {
