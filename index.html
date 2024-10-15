@@ -46,9 +46,9 @@
 			<script type="text/javascript" src="/scripts/Carousel.js"></script>
 			<div class="slideshow">
 				<div class="slideshow-container" onmouseover="stopSlideChange()" onmouseout="resumeSlideChange()">
-					<div class="mySlides fade" onload="startSlides()">
+					<div class="mySlides fade">
 						<div class="numbertext">1</div>
-						<img class="slideImage" src="/images/Slide1.webp" alt="Shader screenshot of a Sunset" />
+						<img class="slideImage" src="/images/Slide1.webp" alt="Shader screenshot of a Sunset" onload="startSlides()"/>
 						<div class="text">Shader screenshot of a Sunset</div>
 					</div>
 					<div class="mySlides fade">
