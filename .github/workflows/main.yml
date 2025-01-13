@@ -37,8 +37,6 @@ jobs:
     - name: Commit and push sitemap
       if: steps.verify-changes.outputs.files_changed == 'true'
       run: |
-        git config --global user.name "Lioncat6"
-        git config --global user.email "your-email@example.com"
         git add ${{ steps.sitemap.outputs.sitemap-path }}
         git commit -m "Automated sitemap update."
         git push origin main
