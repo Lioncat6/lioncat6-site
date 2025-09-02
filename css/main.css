@@ -26,7 +26,7 @@
 .headertop {
   height: 100%;
   width: 100%;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #252525;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -68,7 +68,7 @@
 
 .topbar {
   height: 70px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #252525;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -84,7 +84,7 @@
   position: absolute;
   right: 5%;
   z-index: 9999;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 1px 5px;
 }
@@ -94,7 +94,7 @@
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #8f8e8e;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .downlink {
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -132,9 +132,8 @@ body {
   box-sizing: border-box;  
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("/images/background.webp");
   background-blend-mode: soft-light;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(82, 82, 82, 0.9);
 }
 
 
@@ -148,7 +147,7 @@ body {
 }
 
 code {
-  background: #fafafa;
+  background: #575757;
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
@@ -227,7 +226,7 @@ code {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #5a5959;
   font-size: 2vmin;
   padding: 1vmin;
   position: absolute;
@@ -245,7 +244,7 @@ code {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #312f2f;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -259,7 +258,7 @@ code {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #2e2d2d;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -310,7 +309,7 @@ code {
 
 
 .windowTitle {
-  color: #f2f2f2;
+  color: #383737;
   font-size: 3vmin;
   padding: 1vmax;
   position: absolute;
@@ -328,7 +327,7 @@ code {
 
 
 .windowDownloads {
-  color: #f2f2f2;
+  color: #423f3f;
   font-size: 2vmin;
   padding: 1vmin;
   position: absolute;
@@ -345,7 +344,7 @@ code {
 }
 
 .windowViews {
-  color: #f2f2f2;
+  color: #181717;
   font-size: 2vmin;
   padding: 1vmin;
   position: absolute;
@@ -362,7 +361,7 @@ code {
 }
 
 .windowDescription {
-  color: #f2f2f2;
+  color: #383737;
   font-size: 2vmin;
   padding: 1vmin;
   position: absolute;
@@ -493,7 +492,7 @@ hr {
 }
 
 .about {
-  background-color: rgba(245, 245, 245, .7);
+  background-color: rgba(46, 46, 46, 0.7);
   opacity: 100%;
   width: 80vw;
   justify-content: center;
@@ -531,6 +530,11 @@ hr {
 }
 
 a {
-  color: black;
+  color: rgb(211, 209, 209);
 }
  
+
+body {
+  background-color: #121212;
+  color: rgb(211, 209, 209);
+}
